@@ -334,115 +334,115 @@ The items below are from the style guide for the original website:
 *   Avoid exclamations.
 
 *   Use gender-neutral language.  Do not imply a gender for God except as in the
-    person of Jesus.  Example: "God's grace", not "His grace".
+    person of Jesus.  Example: `God's grace`, not `His grace`.
 
-*   For consistency, always write "worship", not "worship service".
+*   For consistency, always write `worship`, not `worship service`.
 
-*   When linking to a PDF, end the link text with "(PDF)".  (Links to PDFs can
+*   When linking to a PDF, end the link text with `(PDF)`.  (Links to PDFs can
     cause accessibility issues if not properly called out.)
 
 ## Capitalization
 
-*   Write "Lord", not "LORD".
+*   Write `Lord`, not `LORD`.
 
-*   Capitalize "bible" only when it refers to the scripture, not a copy of the
-    scripture.  Example: "Bible reading", not "bible reading", but "new bibles",
-    not "new Bibles".
+*   Capitalize `bible` only when it refers to the scripture, not a copy of the
+    scripture.  Example: `Bible reading`, not `bible reading`, but `new bibles`,
+    not `new Bibles`.
 
-*   Capitalize "Holy Communion" when referring to the sacrament.
+*   Capitalize `Holy Communion` when referring to the sacrament.
 
-*   Do not capitalize "baptism" or "communion", even when referring to a
+*   Do not capitalize `baptism` or `communion`, even when referring to a
     sacrament.
 
 Punctuation
 -----------
 
-*   Do not use three periods in place of an ellipsis (`…`).  Example: "See full
-    calendar…", not "See full calendar...".
+*   Do not use three periods in place of an ellipsis (`…`).  Example: `See full
+    calendar…`, not `See full calendar...`.
 
 *   Place periods and commas that follow but are not part of a quotation after
     the quotation marks unless they can be combined with punctuation in the
     quotation.
 
-*   Use the serial comma.  Example: "via a prayer chain, holiday gifts for
-    shut-ins, and food and meals for funerals", not "via a prayer chain, holiday
-    gifts for shut-ins and food and meals for funerals".
+*   Use the serial comma.  Example: `via a prayer chain, holiday gifts for
+    shut-ins, and food and meals for funerals`, not `via a prayer chain, holiday
+    gifts for shut-ins and food and meals for funerals`.
 
 *   Do not use hyphens (`-`), which indicate compound words, in place of en
     dashes (`–`), which indicate ranges, or em dashes (`—`), which set off
-    phrases.  Example: "December 17–19", not "December 17-19".
+    phrases.  Example: `December 17–19`, not `December 17-19`.
 
-*   Do not places spaces next to hyphens or dashes.  Example: "December 17–19",
-    not "December 17 – 19".
+*   Do not places spaces next to hyphens or dashes.  Example: `December 17–19`,
+    not `December 17 – 19`.
 
-*   Write singular possessives by adding an apostrophe and an "s".  Example:
-    "Jesus's", not "Jesus'".
+*   Write singular possessives by adding an apostrophe and an `s`.  Example:
+    `Jesus's`, not `Jesus'`.
 
-*   Do not use curly quotes (`“`, `”`, `‘`, or `’`).  Example: "Jesus's", not
-    "Jesus’s".
+*   Do not use curly quotes (`“`, `”`, `‘`, or `’`).  Example: `Jesus's`, not
+    `Jesus’s`.
 
 *   Use double quotes for quotations, single quotes for quotations in
     quotations, double quotes for quotations in quotations in quotations, etc.
 
-*   Do not use a backslash (`\`), which can mean "without", in place of a slash
-    (`/`), which usually means "or".
+*   Do not use a backslash (`\`), which can mean `without`, in place of a slash
+    (`/`), which usually means `or`.
 
 *   Do not use symbols other than the en dash (`–`) as abbreviations.  Example:
-    "quilting and sewing", not "quilting/sewing" or "quilting & sewing".
+    `quilting and sewing`, not `quilting/sewing` or `quilting & sewing`.
 
 *   Use en dashes (`–`) for ranges that are not parts of a sentence and whose
     endpoints consist only of digits and symbols.  Use words in all other cases.
-    Example: "17–19" outside of a sentence, "17 through 19" inside a sentence,
-    and "July through August" everywhere.
+    Example: `17–19` outside of a sentence, `17 through 19` inside a sentence,
+    and `July through August` everywhere.
 
 Abbreviations
 -------------
 
-*   Do not use contractions, except in direct quotations.  Example: "we have",
-    not "we've".
+*   Do not use contractions, except in direct quotations.  Example: `we have`,
+    not `we've`.
 
-*   Write initialisms in full uppercase and without dots.  Example: "PM", not
-    "p.m.", and "US", not "U.S."
+*   Write initialisms in full uppercase and without dots.  Example: `PM`, not
+    `p.m.`, and `US`, not `U.S.`
 
-*   Do not use abbreviations other than acronyms, initialisms, and "etc."
-    outside of titles and addresses.  Example: "meeting", not "mtg."
+*   Do not use abbreviations other than acronyms, initialisms, and `etc.`
+    outside of titles and addresses.  Example: `meeting`, not `mtg.`
 
 *   When an abbreviation appears in a name, connect it to the following word by
     a nonbreaking space (written as `&nbsp;` in the Markdown).  Example:
-    "Rev.&nbsp;Jane Doe", not "Rev. Jane Doe".
+    `Rev.&nbsp;Jane Doe`, not `Rev. Jane Doe`.
 
 *   Avoid initials in names.  If one is used, join it to any adjacent names with
-    nonbreaking spaces.  Example: "Rev.&nbsp;Jane&nbsp;X.&nbsp;Doe", not
-    "Rev.&nbsp;Jane X. Doe".
+    nonbreaking spaces.  Example: `Rev.&nbsp;Jane&nbsp;X.&nbsp;Doe`, not
+    `Rev.&nbsp;Jane X. Doe`.
 
 Numbers
 -------
 
 *   When a number attaches to a word, connect the two by a nonbreaking space
-    (written as "&nbsp;" in the Markdown).  Example: "7:00&nbsp;PM", not "7:00
-    PM", and "Isaiah&nbsp;61:1–4", not "Isaiah 61:1–4".
+    (written as `&nbsp;` in the Markdown).  Example: `7:00&nbsp;PM`, not `7:00
+    PM`, and `Isaiah&nbsp;61:1–4`, not `Isaiah 61:1–4`.
 
 *   When two numbers in a list attach to a words, connect everything by
-    nonbreaking spaces.  Example: "July&nbsp;17&nbsp;and&nbsp;19", not
-    "July&nbsp;17 and 19", and "Isaiah&nbsp;61:1–4,&nbsp;8–11", not "Isaiah
-    61:1–4, 8–11".
+    nonbreaking spaces.  Example: `July&nbsp;17&nbsp;and&nbsp;19`, not
+    `July&nbsp;17 and 19`, and `Isaiah&nbsp;61:1–4,&nbsp;8–11`, not `Isaiah
+    61:1–4, 8–11`.
 
 *   When three or more numbers in a list attach to a words, connect the first by
-    a nonbreaking space, join the "and" and the last number with a nonbreaking
-    spaces, and use plain spaces elsewhere.  Example: "July&nbsp;17, 19,
-    and&nbsp;21", not "July 17, 19, and 21".
+    a nonbreaking space, join the `and` and the last number with a nonbreaking
+    spaces, and use plain spaces elsewhere.  Example: `July&nbsp;17, 19,
+    and&nbsp;21`, not `July 17, 19, and 21`.
 
 *   When a number comes at the end of a sentence, precede it with a nonbreaking
     space.
 
 *   Write dates without years as the month name in full, a nonbreaking space,
-    and the day.  Example: "July&nbsp;17", not "7/17".
+    and the day.  Example: `July&nbsp;17`, not `7/17`.
 
 *   Write times as the hour, a colon, the minutes, and an AM or PM suffix
     attached by a nonbreaking space.  (However, omit the AM or PM suffix if the
-    time is accompanied by a phrase like "in the morning" or "in the evening".)
-    Example: "4:00&nbsp;PM", not "4:00", "four", or "4".
+    time is accompanied by a phrase like `in the morning` or `in the evening`.)
+    Example: `4:00&nbsp;PM`, not `4:00`, `four`, or `4`.
 
 *   Write US phone numbers as an area code in parentheses, a nonbreaking space,
     the three-digit prefix, a hyphen (`-`), and the four-digit suffix.  Example:
-    "(402)&nbsp;474-1505", not "402-474-1505".
+    `(402)&nbsp;474-1505`, not `402-474-1505`.
