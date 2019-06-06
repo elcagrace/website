@@ -59,6 +59,7 @@ def git_pull():
 
 def serve(origin, scripts=(), **kwargs):
     serve_by_template(TEMPLATE_PATH, origin, NAVIATION, scripts, **kwargs)
+    sys.stdout.flush()
     os.close(sys.stdout.fileno())
     sys.stdout.close()
     git_pull()
