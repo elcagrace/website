@@ -149,13 +149,13 @@ def to_runs(events):
             endpoints.append([current, current])
     runs = []
     for start, end in endpoints:
-        prefix = start.strftime('%B&nbsp;%d')
+        prefix = start.strftime('%B&nbsp;%-d')
         if start == end:
             runs.append(prefix)
         elif start.month == end.month:
-            runs.append(f'{prefix}–end.strftime("%d")')
+            runs.append(f'{prefix}–end.strftime("%d-")')
         else:
-            runs.append(f'{prefix}–end.strftime("%B&nbsp;%d")')
+            runs.append(f'{prefix}–end.strftime("%B&nbsp;%-d")')
     if len(runs) == 1:
         return runs[0]
     if len(runs) == 2:
