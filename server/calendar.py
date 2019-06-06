@@ -38,15 +38,16 @@ CENTRAL_TIME = timezone('US/Central')
 # Event Class
 
 class Event:
-    def __init__(self, name, start, end, location, notes):
-        self.name = name
+    def __init__(self, name, start, end, location, notes, cleanup=lambda name: name):
+        self.original_name = name
+        self.name = cleanup(name)
         self.start = start
         self.end = end
         self.location = location if location is not None else ''
         self.notes = notes if notes is not None else ''
         self.uuid = uuid5(NAMESPACE, f'{name}-{start}-{end}-{location}-{notes}')
         if start.year != REFERENCE_TIME.year or start.month != REFERENCE_TIME.month or start >= REFERENCE_TIME:
-            self.anchor = make_anchor(name)
+            self.anchor = make_anchor(self.name)
         else:
             self.anchor = None
         if start.strftime('%p') == end.strftime('%p'):
@@ -94,7 +95,7 @@ def get_calendar_service():
     return _CALENDAR_SERVICE
 
 
-def get_events(minimum, maximum, pattern=None):
+def get_events(minimum, maximum, pattern=None, cleanup=lambda name: name):
     records = get_calendar_service().events().list(
         calendarId='primary',
         timeMin=minimum.isoformat(),
@@ -111,20 +112,20 @@ def get_events(minimum, maximum, pattern=None):
             if start is not None and end is not None:
                 location = record.get('location')
                 notes = record.get('notes')
-                results.append(Event(name, parse(start), parse(end), location, notes))
+                results.append(Event(name, parse(start), parse(end), location, notes, cleanup))
     return results
 
 
-def get_events_by_horizon(days, pattern=None):
+def get_events_by_horizon(days, pattern=None, cleanup=lambda name: name):
     minimum = datetime.now().astimezone(CENTRAL_TIME)
     maximum = minimum + relativedelta(days=days)
-    return get_events(minimum, maximum, pattern)
+    return get_events(minimum, maximum, pattern, cleanup=cleanup)
 
 
-def get_events_by_month(year, month, pattern=None):
+def get_events_by_month(year, month, pattern=None, cleanup=lambda name: name):
     minimum = CENTRAL_TIME.localize(datetime(year, month, 1))
     maximum = CENTRAL_TIME.localize(datetime(year, month, 1) + relativedelta(months=1))
-    return get_events(minimum, maximum, pattern)
+    return get_events(minimum, maximum, pattern, cleanup=cleanup)
 
 
 # Event Templates
@@ -143,10 +144,10 @@ EXPANDED_EVENT_TEMPLATE = load_calendar_template('expanded_event')
 # Calendar Formatting
 
 
-def format_event(event, cleanup=lambda name: name):
+def format_event(event):
     return EVENT_TEMPLATE.format(
         uuid=event.uuid,
-        name=cleanup(event.name),
+        name=event.name,
         times=event.times,
         comma_location=event.comma_location,
         anchor_attribute=f'id="{event.anchor}"' if event.anchor is not None else '',
@@ -160,10 +161,10 @@ def format_event(event, cleanup=lambda name: name):
     )
 
 
-def format_day(year, month, day, events, cleanup=lambda name: name):
+def format_day(year, month, day, events):
     start = CENTRAL_TIME.localize(datetime(year, month, day))
     end = CENTRAL_TIME.localize(datetime(year, month, day) + relativedelta(days=1))
-    formatted_events = tuple(format_event(event, cleanup) for event in events if start <= event.start < end)
+    formatted_events = tuple(format_event(event) for event in events if start <= event.start < end)
     return DAY_TEMPLATE.format(
         year=year,
         month=month,
@@ -177,7 +178,7 @@ def format_calendar(year, month, cleanup=lambda name: name):
         year = datetime.now().year
     if month is None:
         month = datetime.now().month
-    events = get_events_by_month(year, month)
+    events = get_events_by_month(year, month, cleanup=cleanup)
     current_month = datetime(year, month, 1)
     previous_month = current_month - relativedelta(months=1)
     next_month = current_month + relativedelta(months=1)
@@ -188,7 +189,7 @@ def format_calendar(year, month, cleanup=lambda name: name):
     expansions = ''
     for day in range(1, 32):
         try:
-            unexpanded_day, expanded_day = format_day(year, month, day, events, cleanup)
+            unexpanded_day, expanded_day = format_day(year, month, day, events)
         except ValueError:
             break
         days += unexpanded_day

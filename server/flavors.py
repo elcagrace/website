@@ -108,7 +108,7 @@ UPCOMING_EVENTS_INCLUSION = re.compile(r'\{upcoming_events\}', re.MULTILINE)
 FEATURED_EVENT_PATTERN = re.compile(r'(.*[^\s])\s*\(featured\)\s*', re.IGNORECASE)
 
 
-def cleanup_event_name(name):
+def clean_up_event_name(name):
     result = FEATURED_EVENT_PATTERN.sub(
         lambda match: match.group(1),
         name,
@@ -165,12 +165,12 @@ def to_runs(events):
 
 def get_upcoming_events(paragraph):
     if paragraph.text is not None and UPCOMING_EVENTS_INCLUSION.fullmatch(paragraph.text):
-        events = get_events_by_horizon(31, FEATURED_EVENT_PATTERN)
+        events = get_events_by_horizon(31, FEATURED_EVENT_PATTERN, cleanup=clean_up_event_name)
         grouped_events = stable_group_by(events, lambda event: (event.name, event.location, event.notes))
         results = []
         for group in grouped_events:
             event = group[0]
-            name = f'{cleanup_event_name(event.name)}<br>{to_runs(group)}'
+            name = f'{event.name}<br>{to_runs(group)}'
             url = f'resources.cgi?year={event.start.year}&month={event.start.month}#{event.anchor}'
             results.append((name, url))
         return results
@@ -393,7 +393,7 @@ class IncludeCalendar(ElementTransformer):
             except:
                 month = None
             element.tag = 'div'
-            element.text = self.md.htmlStash.store(format_calendar(year, month, cleanup=cleanup_event_name))
+            element.text = self.md.htmlStash.store(format_calendar(year, month, cleanup=clean_up_event_name))
 
 
 class IncludeGreeters(ElementTransformer):
