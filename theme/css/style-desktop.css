@@ -1,0 +1,53 @@
+.menu {
+    height: 60px;
+}
+.menu nav {
+    background: url(images/menu-dogear.png) top right repeat;
+}
+.menu nav ul li {
+    display: inline-block;
+    padding: 0px 0px;
+    line-height: 60px;
+}
+.menu nav ul li a {
+    display: block;
+    padding: 0px 20px;
+    float: left;
+    margin-right: 2px;
+}
+
+main {
+    min-height: calc(100vh - 81pt - 208px);
+}
+
+#sidebar > section {
+    padding: 0px 0px 0px 30px;
+}
+
+#content > section {
+    padding: 0px 30px 0px 0px;
+}
+div#content[class="12u"] > section {
+    padding: 0px 30px;
+}
+#content h2, h3 {
+    text-transform: uppercase;
+    color: #2a2a2a;
+}
+#content h2 {
+    padding: 0px 0px 40px 0px;
+    font-size: 30pt;
+}
+#content h3 {
+    padding: 30px 0px 10px 0px;
+    font-size: 24pt;
+}
+div.expanded-event h3 {
+    font-size: 24pt;
+}
+#content #map-noscript h3 {
+    font-size: 20pt;
+}
+#content img:not(.interface) {
+    border: 10px solid #f3f3f3;
+}

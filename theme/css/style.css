@@ -1,0 +1,380 @@
+html, body {
+    height: 100%;
+}
+body {
+    margin: 0px;
+    padding: 0px;
+    background: #d47028 url(images/background.png) repeat;
+    color: #5a5a5a;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10pt;
+    overflow-x: hidden;
+    overflow-y: scroll;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 300;
+}
+p {
+    line-height: 180%;
+}
+strong {
+    font-weight: 700;
+    color: #2a2a2a;
+}
+a {
+    color: #d1551f;
+}
+
+header {
+    width: 100%;
+    position: relative;
+    padding: 15px 0px 15px 0px;
+    background: url(images/spotdark.png) no-repeat center top;
+    overflow: hidden;
+}
+header a {
+    text-decoration: none;
+}
+header h1 {
+    display: block;
+    margin: 0px;
+    text-align: center;
+    text-shadow: -1px -1px 0px #ac531b;
+    font-family: 'Allura', cursive;
+    font-size: 70pt;
+    font-weight: 200;
+    color: #fff;
+}
+
+.menu nav ul {
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+    list-style: none;
+}
+.menu nav ul li {
+    position: relative;
+    overflow: hidden;
+}
+.menu nav ul li a {
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: 'Abel', sans-serif;
+    font-size: 13pt;
+    color: #fff;
+}
+.menu nav li.active, .menu nav li:active {
+    background-color: #00626b;
+    box-shadow: inset 0px -2px 20px 0px rgba(0,0,0,0.2);
+}
+
+.menu nav a.mobile-more {
+    display: block;
+    position: absolute;
+    top: 50%;
+    right: 1em;
+    transform: translateY(-50%);
+    width: 2em;
+    z-index: 1;
+    padding: 0px;
+    cursor: pointer; /* Necessary in some browsers? */
+}
+.menu nav a.mobile-more:before {
+    content: "";
+    display: block;
+    margin-top: 100%;
+}
+
+.menu nav a.mobile-more span.mobile-more-line {
+    position: absolute;
+    left: 10%;
+    width: 80%;
+    height: 9%;
+    border-radius: 10px;
+    background: #fff;
+}
+.menu nav a.mobile-more span.mobile-more-line-0 {
+   top: 14%;
+}
+.menu nav a.mobile-more span.mobile-more-line-1 {
+   top: 44%;
+}
+.menu nav a.mobile-more span.mobile-more-line-2 {
+   top: 74%;
+}
+
+main {
+    overflow: hidden;
+    padding: 30px 0px;
+    background: #fff;
+}
+
+#sidebar #mission {
+    margin-top: 0px;
+    font-family: 'Abel', sans-serif;
+    font-size: 1.2em;
+    font-weight: bold;
+    text-align: center;
+}
+#sidebar h2 {
+    max-height: 100px;
+    background: url(images/inner-dogear.png) no-repeat right top;
+    margin-bottom: 20px;
+    padding: 0px 0px 0px 20px;
+    line-height: 50px;
+    text-transform: uppercase;
+    font-size: 20pt;
+    color: #fff;
+}
+#sidebar > section:not(:first-child) {
+    margin-top: 20px;
+}
+
+nav#skip {
+    background-color: #fff;
+    text-align: center;
+}
+nav#skip a {
+    margin-left: 2.5em;
+    white-space: nowrap;
+}
+
+#content > section {
+    margin-bottom: 30px;
+    border-bottom: 1px solid #e6e6e6;
+}
+#content > section:last-child {
+    border-bottom: 0;
+}
+#content img.inline, #content div.inline {
+    width: 100%;
+}
+#content div.inline {
+    position: relative;
+}
+#content img.spinning {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+}
+#content ul.unbulleted {
+    padding: 0px;
+    list-style: none;
+}
+#content li {
+    margin: 1em;
+    padding: 0px;
+}
+#content section img.subbanner {
+    display: block;
+    margin: auto;
+    border: 1px solid #8a8a8a;
+    padding: 12px;
+    max-width: 100%;
+}
+
+footer {
+    width: 100%;
+    margin: 0px;
+    padding: 25px 0px;
+    background: #c55300 url(images/footer-background.png) repeat;
+    overflow: hidden;
+    text-align: center;
+    font-family: 'Abel', sans-serif;
+    font-size: 11pt;
+    color: #ad7253;
+}
+div.social {
+    margin-bottom: 1ex;
+    font-family: 'Abel', sans-serif;
+    font-size: 11pt;
+    color: #ad7253;
+}
+div.social a {
+    color: #2f180b;
+}
+div.social span.social-caption {
+    vertical-align: middle;
+    font-weight: bold;
+}
+div.social img {
+    vertical-align: middle;
+    opacity: 0.5;
+}
+div.copyright span {
+    white-space: nowrap;
+}
+div.copyright span.separator {
+    padding: 0px 1em 0px 1em;
+}
+div.copyright a {
+    color: #ad7253;
+    text-decoration: none;
+}
+
+#content img.interface {
+    margin: 0px;
+    border: none;
+    padding: 0px;
+}
+noscript, .unavailable {
+    display: block;
+    border: 4px dashed #525252;
+    padding: 12px;
+    font-size: 1.5em;
+    text-align: center;
+}
+
+ul.events {
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+}
+ul.events li {
+    padding: 15px 0px 15px 0px;
+    border-bottom: 1px solid #e6e6e6;
+}
+ul.events li:last-child {
+    border-bottom: 0;
+}
+ul.events a {
+    display: block;
+    padding: 0px 0px 0px 30px;
+    background: url(images/bullet.png) no-repeat left top;
+    text-decoration: none;
+    color: #525252;
+}
+ul.events a:hover, ul.events a:focus {
+    text-decoration: underline;
+}
+
+table.calendar {
+    margin: 1ex 0px;
+    border: 1px solid #210;
+    width: 100%;
+    table-layout: fixed;
+}
+table.calendar h3, #content table.calendar h3 {
+    padding: 0px;
+}
+table.calendar th, table.calendar td {
+    padding: 2px 5px;
+}
+table.calendar th {
+    border: none;
+}
+table.calendar th.month-header {
+    font-size: 2.5em;
+}
+table.calendar th.month-header img.interface {
+    margin: 0px 1em;
+}
+table.calendar th.day-of-week-header {
+    border: none;
+    border-bottom: 7px solid #210;
+    font-size: 1.3em;
+}
+table.calendar td {
+    border: 1px solid #210;
+    height: 16ex;
+    vertical-align: top;
+    overflow: hidden;
+}
+table.calendar td ul {
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+}
+table.calendar td ul li {
+    margin: 0px;
+    padding: 0px;
+}
+table.calendar td ul li.highlight {
+    background-color: #8ed0cd;
+}
+table.calendar a {
+    cursor: pointer;
+}
+div.expanded-event {
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    background: none !important;
+    pointer-events: none;
+}
+div.expanded-event > div {
+    display: inline-block;
+    position: relative;
+    margin: 0px;
+    border: 1px solid #000;
+    box-shadow: 1px 1px 1.5px 1.5px rgba(0, 0, 0, 0.5);
+    background-color: #fff;
+    padding: 0.5em 1em 1em 1em;
+    width: 500px;
+    max-width: 90%;
+    text-align: start;
+    pointer-events: auto;
+}
+div.expanded-event > div a.close {
+    position: absolute;
+    display: block;
+    margin: 8px;
+    top: 0px;
+    right: 0px;
+    color: #000;
+    cursor: pointer;
+}
+#content div.expanded-event > div > h3 {
+    padding: 0px;
+}
+div.expanded-event > div > strong {
+    display: block;
+}
+div.expanded-event > div > p {
+    margin: 1ex 0px;
+}
+
+iframe.map {
+    border: 1px solid #e6e6e6;
+    width: 100%;
+    height: 80vh;
+}
+
+iframe.blog {
+    border: 1px solid #8a481b;
+    width: 100%;
+    overflow: hidden;
+}
+
+#content #map-noscript h3 {
+    text-align: center;
+    padding-bottom: 0px;
+}
+#map, #map-controls {
+    display: none;
+}
+svg.map {
+    margin: 1em 0px 0px 0px;
+    border: 1px solid #e6e6e6;
+    width: 100%;
+}
+svg.map a {
+    stroke-width: 0px;
+}
+
+text:focus {
+    fill: blue;
+}
+
+:-webkit-full-screen {
+    position: fixed !important;
+    left: 0% !important;
+    top: 0% !important;
+    width: 100% !important;
+    height: 100% !important;
+    background: none !important;
+}

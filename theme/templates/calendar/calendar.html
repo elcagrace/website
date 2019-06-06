@@ -1,0 +1,25 @@
+<table class="calendar">
+  <thead>
+    <tr class="narrow-only" style="display: none;">
+      <th class="month-header" scope="col">{name_of_current_month} {year_of_current_month}</th>
+    </tr>
+    <tr>
+      <th class="month-header" scope="col" colspan="7">
+	<a href="?year={year_of_previous_month}&amp;month={previous_month}"><img class="interface" src="theme/icons/chevron-left.png" alt="Previous"></a>&nbsp;<span class="wide-only">{name_of_current_month} {year_of_current_month}</span>&nbsp;<a href="?year={year_of_next_month}&amp;month={next_month}"><img class="interface" src="theme/icons/chevron-right.png" alt="Next"></a>
+      </th>
+    </tr>
+    <tr class="wide-only">
+      <th class="day-of-week-header">Sunday</th>
+      <th class="day-of-week-header">Monday</th>
+      <th class="day-of-week-header">Tuesday</th>
+      <th class="day-of-week-header">Wednesday</th>
+      <th class="day-of-week-header">Thursday</th>
+      <th class="day-of-week-header">Friday</th>
+      <th class="day-of-week-header">Saturday</th>
+    </tr>
+  </thead>
+  <tbody>
+    {days}
+  </tbody>
+</table>
+{expansions}

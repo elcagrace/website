@@ -1,0 +1,47 @@
+<style>
+  h2 {{ text-align: center; }}
+  #message {{ margin-bottom: 1em; text-align: center; font-weight: bold; color: #0e7d8a; }}
+  table {{ margin: auto; }}
+  table td {{ padding: 0.5em; }}
+  table input:not([type="radio"]):not([type="checkbox"]) {{ width: 100em; max-width: 50vw; }}
+  table span.radios {{ display: inline-block; width: 100em; max-width: 50vw; }}
+  table label.radio {{ white-space: nowrap; }}
+  table input[type="radio"], table input[type="checkbox"] {{ vertical-align: middle; margin: 0em; }}
+  button {{ display: block; margin: 1em auto; }}
+</style>
+<table>
+  <tr><td><label for="vbs-name">Name:</label></td><td><input id="vbs-name" name="vbs-name" type="text" value="" required="required" pattern=".*\w.*"></td></tr>
+  <tr><td><label for="vbs-grade">Grade in the Fall:</label></td><td id="vbs-grade">
+      <span class="radios">
+	<label class="radio"><input id="vbs-grade-p" name="vbs-grade" type="radio" value="P" checked="checked">&nbsp;Pre-Kindergarten</label>
+	<label class="radio"><input id="vbs-grade-k" name="vbs-grade" type="radio" value="K">&nbsp;Kindergarten</label>
+	<label class="radio"><input id="vbs-grade-1" name="vbs-grade" type="radio" value="1">&nbsp;1<sup>st</sup></label>
+	<label class="radio"><input id="vbs-grade-2" name="vbs-grade" type="radio" value="2">&nbsp;2<sup>nd</sup></label>
+	<label class="radio"><input id="vbs-grade-3" name="vbs-grade" type="radio" value="3">&nbsp;3<sup>rd</sup></label>
+	<label class="radio"><input id="vbs-grade-4" name="vbs-grade" type="radio" value="4">&nbsp;4<sup>th</sup></label>
+	<label class="radio"><input id="vbs-grade-5" name="vbs-grade" type="radio" value="5">&nbsp;5<sup>th</sup></label>
+      </span>
+  </td></tr>
+  <tr><td><label for="vbs-date-of-birth">Date of Birth:</label></td><td><input id="vbs-date-of-birth" name="vbs-date-of-birth" type="date" placeholder="mm/dd/yyyy" value="" required="required" pattern="[0-1][0-9]/[0-3][0-9]/[1-2][90][0-9][0-9]"></td></tr>
+  <tr><td><label for="vbs-pictures">Permission to Take and Post Pictures:</label></td><td id="vbs-pictures">
+      <span class="radios">
+	<label class="radio"><input id="vbs-pictures-no" name="vbs-pictures" type="radio" value="N" checked="checked">&nbsp;No</label>
+	<label class="radio"><input id="vbs-pictures-yes" name="vbs-pictures" type="radio" value="Y">&nbsp;Yes</label>
+      </span>
+  </td></tr>
+  <tr><td><label for="vbs-supper">Attending Supper:</label></td><td id="vbs-supper">
+      <span class="radios">
+	<label class="radio"><input id="vbs-supper-no" name="vbs-supper" type="radio" value="N">&nbsp;No</label>
+	<label class="radio"><input id="vbs-supper-yes" name="vbs-supper" type="radio" value="Y" checked="checked">&nbsp;Yes</label>
+      </span>
+  </td></tr>
+  <tr><td><label for="vbs-health">Allergies or Health Care Concerns:</label></td><td><input id="vbs-health" name="vbs-health" type="text" value=""></td></tr>
+  <tr><td><label for="vbs-accomodations">Requested Accomodations:</label></td><td><input id="vbs-accomodations" name="vbs-accomodations" type="text" value=""></td></tr>
+  <tr><td><label for="vbs-contact">Parent / Guardian / Responsible Party:</label></td><td><input id="vbs-contact" name="vbs-contact" type="text" value="{vbs-contact}" required="required" pattern=".*\w.*"></td></tr>
+  <tr><td><label for="vbs-contact-phone">Contact Number:</label></td><td><input id="vbs-contact-phone" name="vbs-contact-phone" type="tel" value="{vbs-contact-phone}" required="required" pattern="\s*(\(?\s*[0-9][0-9][0-9]\s*\)?\s*-?\s*)?[0-9][0-9][0-9]\s*-?\s*[0-9][0-9][0-9][0-9]\s*"></td></tr>
+  <tr><td><label for="vbs-contact-e-mail">E-mail:</label></td><td><input id="vbs-contact-e-mail" name="vbs-contact-e-mail" type="email" value="{vbs-contact-e-mail}" required="required"></td></tr>
+  <tr><td><label for="vbs-emergency-contact">Emergency Contact Name:</label></td><td><input id="vbs-emergency-contact" name="vbs-emergency-contact" type="text" value="{vbs-emergency-contact}" required="required" pattern=".*\w.*"></td></tr>
+  <tr><td><label for="vbs-emergency-contact-phone">Emergency Contact Phone Number:</label></td><td><input id="vbs-emergency-contact-phone" name="vbs-emergency-contact-phone" type="tel" value="{vbs-emergency-contact-phone}" required="required" pattern="\s*(\(?\s*[0-9][0-9][0-9]\s*\)?\s*-?\s*)?[0-9][0-9][0-9]\s*-?\s*[0-9][0-9][0-9][0-9]\s*"></td></tr>
+  <tr><td><label for="vbs-additional-ride-1">Additional Adult Authorized to Pick Up Student (optional):</label></td><td><input id="vbs-additional-ride-1" name="vbs-additional-ride-1" type="text" value="{vbs-additional-ride-1}" pattern=".*\w.*"></td></tr>
+  <tr><td><label for="vbs-additional-ride-2">Additional Adult Authorized to Pick Up Student (optional):</label></td><td><input id="vbs-additional-ride-2" name="vbs-additional-ride-2" type="text" value="{vbs-additional-ride-2}" pattern=".*\w.*"></td></tr>
+</table>

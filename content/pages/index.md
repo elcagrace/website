@@ -1,0 +1,24 @@
+# Location (1/2)
+
+{include:building}
+
+{include:address}
+
+Office Hours: Monday–Friday, 9:00&nbsp;AM through 3:00&nbsp;PM
+
+# Times (1/2)
+
+{carousel}
+
+*   **Evening Worship:** Saturdays, 5:00–5:45 PM, in the
+    [chapel](visit.cgi#chapel)
+*   **Morning Worship:** Sundays, 9:00–10:00&nbsp;AM, in the
+    [nave](visit.cgi#nave)
+*   **Evening Prayer:** Wednesdays, 7:00–7:30&nbsp;PM, in the
+    [chapel](visit.cgi#chapel)
+*   **Sunday School:** Sundays during the school year, 10:30–11:30&nbsp;AM, in
+    the [basement Sunday school rooms](visit.cgi#sunday-school-rooms)
+*   **Youth Forum:** Sundays during the school year, 10:30–11:30&nbsp;AM, in the
+    [Youth Room](visit.cgi#youth-room)
+*   **Adult Bible Study:** Sundays during the school year, 10:40–11:30&nbsp;AM,
+    in the [lounge](visit.cgi#lounge)
