@@ -166,7 +166,7 @@ def to_runs(events):
 def get_upcoming_events(paragraph):
     if paragraph.text is not None and UPCOMING_EVENTS_INCLUSION.fullmatch(paragraph.text):
         events = get_events_by_horizon(31, FEATURED_EVENT_PATTERN, cleanup=clean_up_event_name)
-        grouped_events = stable_group_by(events, lambda event: (event.name, event.location, event.notes))
+        grouped_events = stable_group_by(events, lambda event: (event.name, event.location, event.description))
         results = []
         for group in grouped_events:
             event = group[0]

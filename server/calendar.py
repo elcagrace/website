@@ -38,14 +38,14 @@ CENTRAL_TIME = timezone('US/Central')
 # Event Class
 
 class Event:
-    def __init__(self, name, start, end, location, notes, cleanup=lambda name: name):
+    def __init__(self, name, start, end, location, description, cleanup=lambda name: name):
         self.original_name = name
         self.name = cleanup(name)
         self.start = start
         self.end = end
         self.location = location if location is not None else ''
-        self.notes = notes if notes is not None else ''
-        self.uuid = uuid5(NAMESPACE, f'{name}-{start}-{end}-{location}-{notes}')
+        self.description = description if description is not None else ''
+        self.uuid = uuid5(NAMESPACE, f'{name}-{start}-{end}-{location}-{description}')
         if start.year != REFERENCE_TIME.year or start.month != REFERENCE_TIME.month or start >= REFERENCE_TIME:
             self.anchor = make_anchor(self.name)
         else:
@@ -111,8 +111,8 @@ def get_events(minimum, maximum, pattern=None, cleanup=lambda name: name):
             end = record['end'].get('dateTime')
             if start is not None and end is not None:
                 location = record.get('location')
-                notes = record.get('notes')
-                results.append(Event(name, parse(start), parse(end), location, notes, cleanup))
+                description = record.get('description')
+                results.append(Event(name, parse(start), parse(end), location, description, cleanup))
     return results
 
 
@@ -157,7 +157,7 @@ def format_event(event):
         times=event.times,
         date=event.start.strftime('%B %-d, %Y'),
         location=event.location,
-        notes=event.notes,
+        description=event.description,
     )
 
 
