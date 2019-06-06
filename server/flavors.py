@@ -109,13 +109,10 @@ FEATURED_EVENT_PATTERN = re.compile(r'(.*[^\s])\s*\(featured\)\s*', re.IGNORECAS
 
 
 def clean_up_event_name(name):
-    result = FEATURED_EVENT_PATTERN.sub(
+    return FEATURED_EVENT_PATTERN.sub(
         lambda match: match.group(1),
         name,
     )
-    if result.endswith('*'):
-        return result[:-1]
-    return result
 
 
 def stable_group_by(sequence, key):
