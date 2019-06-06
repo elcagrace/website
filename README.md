@@ -357,7 +357,7 @@ The items below are from the style guide for the original website:
 Punctuation
 -----------
 
-*   Do not use three periods in place of an ellipsis ("…").  Example: "See full
+*   Do not use three periods in place of an ellipsis (`…`).  Example: "See full
     calendar…", not "See full calendar...".
 
 *   Place periods and commas that follow but are not part of a quotation after
@@ -368,8 +368,8 @@ Punctuation
     shut-ins, and food and meals for funerals", not "via a prayer chain, holiday
     gifts for shut-ins and food and meals for funerals".
 
-*   Do not use hyphens ("-"), which indicate compound words, in place of en
-    dashes ("–"), which indicate ranges, or em dashes ("—"), which set off
+*   Do not use hyphens (`-`), which indicate compound words, in place of en
+    dashes (`–`), which indicate ranges, or em dashes (`—`), which set off
     phrases.  Example: "December 17–19", not "December 17-19".
 
 *   Do not places spaces next to hyphens or dashes.  Example: "December 17–19",
@@ -378,19 +378,19 @@ Punctuation
 *   Write singular possessives by adding an apostrophe and an "s".  Example:
     "Jesus's", not "Jesus'".
 
-*   Do not use curly quotes ("“", "”", "‘", and "’").  Example: "Jesus's", not
+*   Do not use curly quotes (`“`, `”`, `‘`, or `’`).  Example: "Jesus's", not
     "Jesus’s".
 
 *   Use double quotes for quotations, single quotes for quotations in
     quotations, double quotes for quotations in quotations in quotations, etc.
 
-*   Do not use a backslash ("\"), which can mean "without", in place of a slash
-    ("/"), which usually means "or".
+*   Do not use a backslash (`\`), which can mean "without", in place of a slash
+    (`/`), which usually means "or".
 
-*   Do not use symbols other than the en dash ("–") as abbreviations.  Example:
+*   Do not use symbols other than the en dash (`–`) as abbreviations.  Example:
     "quilting and sewing", not "quilting/sewing" or "quilting & sewing".
 
-*   Use en dashes ("–") for ranges that are not parts of a sentence and whose
+*   Use en dashes (`–`) for ranges that are not parts of a sentence and whose
     endpoints consist only of digits and symbols.  Use words in all other cases.
     Example: "17–19" outside of a sentence, "17 through 19" inside a sentence,
     and "July through August" everywhere.
