@@ -329,7 +329,7 @@ The items below are from the style guide for the original website:
 
 ## General Style
 
-*   Use proper spelling and grammar full sentences wherever possible.
+*   Use proper spelling and grammar and use full sentences wherever possible.
 
 *   Avoid exclamations.
 
