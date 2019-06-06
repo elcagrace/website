@@ -143,16 +143,16 @@ EXPANDED_EVENT_TEMPLATE = load_calendar_template('expanded_event')
 # Calendar Formatting
 
 
-def format_event(event):
+def format_event(event, cleanup=lambda name: name):
     return EVENT_TEMPLATE.format(
         uuid=event.uuid,
-        name=event.name,
+        name=cleanup(event.name),
         times=event.times,
         comma_location=event.comma_location,
         anchor_attribute=f'id="{event.anchor}"' if event.anchor is not None else '',
     ), EXPANDED_EVENT_TEMPLATE.format(
         uuid=event.uuid,
-        name=event.name,
+        name=cleanup(event.name),
         times=event.times,
         date=event.start.strftime('%B %-d, %Y'),
         location=event.location,
@@ -160,10 +160,10 @@ def format_event(event):
     )
 
 
-def format_day(year, month, day, events):
+def format_day(year, month, day, events, cleanup=lambda name: name):
     start = CENTRAL_TIME.localize(datetime(year, month, day))
     end = CENTRAL_TIME.localize(datetime(year, month, day) + relativedelta(days=1))
-    formatted_events = tuple(format_event(event) for event in events if start <= event.start < end)
+    formatted_events = tuple(format_event(event, cleanup) for event in events if start <= event.start < end)
     return DAY_TEMPLATE.format(
         year=year,
         month=month,
@@ -172,7 +172,7 @@ def format_day(year, month, day, events):
     ), '\n'.join(expanded_event for _, expanded_event in formatted_events)
 
 
-def format_calendar(year, month):
+def format_calendar(year, month, cleanup=lambda name: name):
     if year is None:
         year = datetime.now().year
     if month is None:
@@ -188,7 +188,7 @@ def format_calendar(year, month):
     expansions = ''
     for day in range(1, 32):
         try:
-            unexpanded_day, expanded_day = format_day(year, month, day, events)
+            unexpanded_day, expanded_day = format_day(year, month, day, events, cleanup)
         except ValueError:
             break
         days += unexpanded_day

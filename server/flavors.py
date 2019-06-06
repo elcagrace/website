@@ -105,7 +105,17 @@ def get_carousel(paragraph):
 
 
 UPCOMING_EVENTS_INCLUSION = re.compile(r'\{upcoming_events\}', re.MULTILINE)
-FEATURED_EVENT_PATTERN = re.compile(r'.*\(featured\)\s*', re.IGNORECASE)
+FEATURED_EVENT_PATTERN = re.compile(r'(.*[^\s])\s*\(featured\)\s*', re.IGNORECASE)
+
+
+def cleanup_event_name(name):
+    result = FEATURED_EVENT_PATTERN.sub(
+        lambda match: match.group(1),
+        name,
+    )
+    if result.endswith('*'):
+        return result[:-1]
+    return result
 
 
 def stable_group_by(sequence, key):
@@ -160,7 +170,7 @@ def get_upcoming_events(paragraph):
         results = []
         for group in grouped_events:
             event = group[0]
-            name = f'{event.name}<br>{to_runs(group)}'
+            name = f'{cleanup_event_name(event.name)}<br>{to_runs(group)}'
             url = f'resources.cgi?year={event.start.year}&month={event.start.month}#{event.anchor}'
             results.append((name, url))
         return results
@@ -383,7 +393,7 @@ class IncludeCalendar(ElementTransformer):
             except:
                 month = None
             element.tag = 'div'
-            element.text = self.md.htmlStash.store(format_calendar(year, month))
+            element.text = self.md.htmlStash.store(format_calendar(year, month, cleanup=cleanup_event_name))
 
 
 class IncludeGreeters(ElementTransformer):
