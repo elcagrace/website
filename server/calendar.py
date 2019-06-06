@@ -153,7 +153,7 @@ def format_event(event):
         anchor_attribute=f'id="{event.anchor}"' if event.anchor is not None else '',
     ), EXPANDED_EVENT_TEMPLATE.format(
         uuid=event.uuid,
-        name=cleanup(event.name),
+        name=event.name,
         times=event.times,
         date=event.start.strftime('%B %-d, %Y'),
         location=event.location,
