@@ -128,7 +128,7 @@ def to_date(event):
 
 def to_runs(events):
     seed = to_date(events[0])
-    endpoints = [(seed, seed)]
+    endpoints = [[seed, seed]]
     for event in events:
         prior = endpoints[-1][1]
         expected = prior + relativedelta(days=1)
@@ -136,7 +136,7 @@ def to_runs(events):
         if current in (prior, expected):
             endpoints[-1][1] = current
         else:
-            endpoints.append((current, current))
+            endpoints.append([current, current])
     runs = []
     for start, end in endpoints:
         prefix = start.strftime('%B&nbsp;%d')
