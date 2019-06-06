@@ -24,7 +24,7 @@ website](http://www.elca.org/Faith/ELCA-Teaching).
 * Amanda Whited, Office Administrator
   ([office@egrace.org](mailto:office@egrace.org))
 * Robert Stimbert, Custodian
-* Jennifer Alawarga-Carlson, Assistant organist
+* Jennifer Alawarga-Carlson, Assistant Organist
 * Judi Schroeder, Nursery Coordinator
 * Elizabeth Krueger, Nursery Assistant
 
