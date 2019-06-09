@@ -235,28 +235,29 @@ would be written
 
 The URLs for different parts of the building interior map are listed below:
 
-*   `visit.cgi#upstairs-sunday-school-rooms` links the upstairs Sunday School
+*   `visit.cgi#upstairs-sunday-school-rooms` links to the upstairs Sunday School
     rooms,
-*   `visit.cgi#youth-room` links the Youth Room,
-*   `visit.cgi#narthex` links the narthex,
-*   `visit.cgi#nave` links the nave,
-*   `visit.cgi#chapel` links the chapel,
-*   `visit.cgi#library` links the library,
-*   `visit.cgi#conference-room` links the conference room by the library,
-*   `visit.cgi#office` links the main office,
-*   `visit.cgi#bishops-assistants-office` links the bishop's assistant's office,
-*   `visit.cgi#senior-pastors-office` links the senior pastor's office,
-*   `visit.cgi#staff-conference-room` links the staff conference room,
-*   `visit.cgi#lounge` links the Lounge,
-*   `visit.cgi#scouts-room` links the Scout's room,
-*   `visit.cgi#nursery` links the Nursery,
-*   `visit.cgi#gym` links the gym,
-*   `visit.cgi#childrens-choir-room` links the children's choir room,
-*   `visit.cgi#sunday-school-rooms` links the Sunday School rooms,
-*   `visit.cgi#sewing-room` links the sewing room,
-*   `visit.cgi#choir-room` links the choir room,
-*   `visit.cgi#music-office` links the director of music's office, and
-*   `visit.cgi#old-sunday-school-rooms` links the old Sunday School rooms.
+*   `visit.cgi#youth-room` links to the Youth Room,
+*   `visit.cgi#narthex` links to the narthex,
+*   `visit.cgi#nave` links to the nave,
+*   `visit.cgi#chapel` links to the chapel,
+*   `visit.cgi#library` links to the library,
+*   `visit.cgi#conference-room` links to the conference room by the library,
+*   `visit.cgi#office` links to the main office,
+*   `visit.cgi#bishops-assistants-office` links to the bishop's assistant's
+    office,
+*   `visit.cgi#senior-pastors-office` links to the senior pastor's office,
+*   `visit.cgi#staff-conference-room` links to the staff conference room,
+*   `visit.cgi#lounge` links to the Lounge,
+*   `visit.cgi#scouts-room` links to the Scout's room,
+*   `visit.cgi#nursery` links to the Nursery,
+*   `visit.cgi#gym` links to the gym,
+*   `visit.cgi#childrens-choir-room` links to the children's choir room,
+*   `visit.cgi#sunday-school-rooms` links to the Sunday School rooms,
+*   `visit.cgi#sewing-room` links to the sewing room,
+*   `visit.cgi#choir-room` links to the choir room,
+*   `visit.cgi#music-office` links to the director of music's office, and
+*   `visit.cgi#old-sunday-school-rooms` links to the old Sunday School rooms.
 
 For example, a link for the location of morning worship could be written:
 
