@@ -7,8 +7,7 @@ Lincoln,&nbsp;NE:
 
 We provide transportation by bus to and from [Sunday morning
 worship](resources.cgi#sunday-morning-worship).  To schedule a ride, call
-transportation coordinator Bob Anderson at (402)&nbsp;432-3058 by 4:00&nbsp;PM
-the Friday before.  Cancellations can be made by leaving a message at the same
+the office by noon on Fridays at (402)&nbsp;474-1505.  Cancellations can be made by leaving a message at the same
 number by 8:00 Sunday morning.
 
 {include:interior_map}
