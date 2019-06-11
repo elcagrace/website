@@ -20,5 +20,5 @@ Office Hours: Monday–Friday, 9:00&nbsp;AM through 3:00&nbsp;PM
     the [basement Sunday school rooms](visit.cgi#sunday-school-rooms)
 *   **Youth Forum:** Sundays during the school year, 10:30–11:30&nbsp;AM, in the
     [Youth Room](visit.cgi#youth-room)
-*   **Adult Bible Study:** Sundays during the school year, 10:40–11:30&nbsp;AM,
+*   **Adult Forum:** Sundays during the school year, 10:40–11:30&nbsp;AM,
     in the [lounge](visit.cgi#lounge)
