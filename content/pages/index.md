@@ -15,7 +15,7 @@ Office Hours: Monday–Friday, 9:00&nbsp;AM through 3:00&nbsp;PM
 *   **Morning Worship:** Sundays, 9:00–10:00&nbsp;AM, in the
     [nave](visit.cgi#nave)
 *   **Evening Prayer:** Wednesdays, 7:00–7:30&nbsp;PM, in the
-    [chapel](visit.cgi#chapel)
+    [chapel](visit.cgi#chapel) Only September through April.
 *   **Sunday School:** Sundays during the school year, 10:30–11:30&nbsp;AM, in
     the [basement Sunday school rooms](visit.cgi#sunday-school-rooms)
 *   **Youth Forum:** Sundays during the school year, 10:30–11:30&nbsp;AM, in the
