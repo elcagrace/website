@@ -7,7 +7,7 @@
 Office Hours: Monday–Friday, 9:00&nbsp;AM through 3:00&nbsp;PM
 
 <p>
-   <a style="text-decoration: none;" target="_blank" href="https://www.facebook.com/grace.live.54584/">
+   <a style="text-decoration: none;" target="_blank" href="https://www.facebook.com/Live-Worship-113278686716424/">
      <img class="interface" style="vertical-align: middle;" alt="Play Video Icon" src="./theme/icons/video.png">
      <span style="vertical-align: middle;">Live Worship Stream</span>
    </a>
