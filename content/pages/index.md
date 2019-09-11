@@ -29,5 +29,5 @@ Office Hours: Monday–Friday, 9:00&nbsp;AM through 3:00&nbsp;PM
     [Youth Room](visit.cgi#youth-room)
 *   **Adult Forum:** Sundays during the school year, 10:45–11:30&nbsp;AM,
     in the [lounge](visit.cgi#lounge)
-*   **Jazz Service:** Third Sunday of every month, 8:00-9:00&nbsp;AM, in the
+*   **Jazz Service:** Third Sunday of every month, 9:00-10:00&nbsp;AM, in the
     [nave](visit.cgi#nave)
