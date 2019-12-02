@@ -23,7 +23,7 @@ website](http://www.elca.org/Faith/ELCA-Teaching).
   ([pr.eric@egrace.org](mailto:pr.eric@egrace.org))
 * Anne Melang-Thoren, Director of Music
   ([anne@egrace.org](mailto:anne@egrace.org))
-* Open, Office Administrator
+* David Sage, Office Administrator
   ([office@egrace.org](mailto:office@egrace.org))
 * Robert Stimbert, Custodian
 * Jennifer Alawarga-Carlson, Assistant Organist
