@@ -105,8 +105,8 @@ def get_events(minimum, maximum, pattern=None, cleanup=lambda name: name):
     ).execute().get('items', [])
     results = []
     for record in records:
-        name = record['summary']
-        if pattern is None or pattern.fullmatch(name):
+        name = record.get('summary')
+        if name is not None and (pattern is None or pattern.fullmatch(name)):
             start = record['start'].get('dateTime')
             end = record['end'].get('dateTime')
             if start is not None and end is not None:
