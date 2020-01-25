@@ -1,4 +1,5 @@
 Redirect 404 server/__init__.py
+Redirect 301 /js/iframeResizer.contentWindow.min.js /theme/js/iframeResizer.contentWindow.min.js
 
 Options -Indexes
 
