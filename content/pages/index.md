@@ -13,7 +13,7 @@ Office Hours: Monday–Friday, 9:00&nbsp;AM through 3:00&nbsp;PM
    </a>
 </p>
 <p>
-   <a style="text-decoration: none;" target="_blank" href="content/documents/bulletin.pdf">
+   <a style="text-decoration: none;" target="_blank" href="content/documents/bulletin.pdf/">
      <img class="interface" style="vertical-align: middle;" alt="Open Book Icon" src="./theme/icons/book-open.png">
      <span style="vertical-align: middle;">Bulletin for Live Worship</span>
    </a>
