@@ -29,11 +29,11 @@ Office Hours: Monday–Friday, 9:00&nbsp;AM through 3:00&nbsp;PM
     [nave](visit.cgi#nave)
 *   **Evening Prayer:** Wednesdays, 5:30–5:50&nbsp;PM, in the
     [chapel](visit.cgi#chapel) Only September through April.
-*   **Sunday School:** Sundays during the school year, 10:30–11:30&nbsp;AM, in
+*   **Sunday School:** Sundays during the school year, 10:15–11:00&nbsp;AM, in
     the [basement Sunday school rooms](visit.cgi#sunday-school-rooms)
-*   **Youth Forum:** Sundays during the school year, 10:30–11:30&nbsp;AM, in the
+*   **Youth Forum:** Sundays during the school year, 10:15–11:00&nbsp;AM, in the
     [Youth Room](visit.cgi#youth-room)
-*   **Adult Forum:** Sundays during the school year, 10:45–11:30&nbsp;AM,
+*   **Adult Forum:** Sundays during the school year, 10:30–11:30&nbsp;AM,
     in the [lounge](visit.cgi#lounge)
 *   **Jazz Service:** Third Sunday of every month, 9:00-10:00&nbsp;AM, in the
     [nave](visit.cgi#nave)
