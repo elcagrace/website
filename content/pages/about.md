@@ -17,7 +17,7 @@ Lutheran body, and part of the [Nebraska Synod](http://nebraskasynod.org/).
 Read more about what we believe at [the ELCA
 website](http://www.elca.org/Faith/ELCA-Teaching).
 
-# Leadership and Staff (1/2)
+# Staff (1/2)
 
 * Rev.&nbsp;Eric Lesher, Senior Pastor
   ([pr.eric@egrace.org](mailto:pr.eric@egrace.org))
