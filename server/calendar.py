@@ -96,13 +96,16 @@ def get_calendar_service():
 
 
 def get_events(minimum, maximum, pattern=None, cleanup=lambda name: name):
-    records = get_calendar_service().events().list(
-        calendarId='primary',
-        timeMin=minimum.isoformat(),
-        timeMax=maximum.isoformat(),
-        singleEvents=True,
-        orderBy='startTime',
-    ).execute().get('items', [])
+    try:
+        records = get_calendar_service().events().list(
+            calendarId='primary',
+            timeMin=minimum.isoformat(),
+            timeMax=maximum.isoformat(),
+            singleEvents=True,
+            orderBy='startTime',
+        ).execute().get('items', [])
+    except:
+        records = []
     results = []
     for record in records:
         name = record.get('summary')
