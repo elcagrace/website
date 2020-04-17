@@ -7,16 +7,22 @@
 Office Hours: Monday–Friday, 9:00&nbsp;AM through 3:00&nbsp;PM
 
 <p>
-   <a style="text-decoration: none;" target="_blank" href="https://www.facebook.com/Live-Worship-113278686716424/">
-     <img class="interface" style="vertical-align: middle;" alt="Play Video Icon" src="./theme/icons/video.png">
-     <span style="vertical-align: middle;">Online Worship</span>
-   </a>
+  <a style="text-decoration: none;" target="_blank" href="https://www.facebook.com/Live-Worship-113278686716424/">
+    <img class="interface" style="vertical-align: middle;" alt="Play Video Icon" src="./theme/icons/video.png">
+    <span style="vertical-align: middle;">Online Worship</span>
+  </a>
 </p>
 <p>
-   <a style="text-decoration: none;" target="_blank" href="content/documents/bulletin.pdf">
-     <img class="interface" style="vertical-align: middle;" alt="Open Book Icon" src="./theme/icons/book-open.png">
-     <span style="vertical-align: middle;">Online Worship Bulletin</span>
-   </a>
+  <a style="text-decoration: none;" target="_blank" href="content/documents/bulletin.pdf">
+    <img class="interface" style="vertical-align: middle; padding: 2px 1px;" alt="Open Book Icon" src="./theme/icons/book-open.png">
+    <span style="vertical-align: middle;">Online Worship Bulletin</span>
+  </a>
+</p>
+<p>
+  <a style="text-decoration: none;" target="_blank" href="https://www.wearesparkhouse.org/promos/family-sunday-school/">
+    <img class="interface" style="vertical-align: middle; padding: 0px 3px;" alt="Lightbulb Icon" src="./theme/icons/lightbulb.png">
+    <span style="vertical-align: middle;">Online Sunday School</span>
+  </a>
 </p>
 
 # Times (1/2)
