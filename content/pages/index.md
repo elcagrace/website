@@ -18,12 +18,6 @@ Office Hours: Monday–Friday, 9:00&nbsp;AM through 3:00&nbsp;PM
     <span style="vertical-align: middle;">Online Worship Bulletin</span>
   </a>
 </p>
-<p>
-  <a style="text-decoration: none;" target="_blank" href="https://www.wearesparkhouse.org/promos/family-sunday-school/">
-    <img class="interface" style="vertical-align: middle; padding: 0px 3px;" alt="Lightbulb Icon" src="./theme/icons/lightbulb.png">
-    <span style="vertical-align: middle;">Online Sunday School</span>
-  </a>
-</p>
 
 # Times (1/2)
 
