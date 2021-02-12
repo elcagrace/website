@@ -27,8 +27,6 @@ website](http://www.elca.org/Faith/ELCA-Teaching).
   ([office@egrace.org](mailto:office@egrace.org))
 * Robert Stimbert, Custodian
 * Jennifer Alawarga-Carlson, Assistant Organist
-* Judi Schroeder, Nursery Coordinator
-* Elizabeth Krueger, Nursery Assistant
 
 # Welcome Statement (1/2)
 
