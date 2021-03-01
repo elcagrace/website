@@ -3,11 +3,11 @@
 Grace Lutheran Church, a church of the Evangelical Lutheran Church in America,
 has been at the heart of the faith community in Lincoln since&nbsp;1889.  
 
-We are deeply committed to our mission: "Making Christ known to all through Grace."
+We are committed to our mission: "Making Christ known to all through Grace."
 
 We celebrate our purpose: "That by God's grace we have been gathered to worship, called to witness, and sent to serve."
 
-We are excited about our vision: "To become a church with a passion for fostering a welcoming community that strives for peace and a sense of belonging." 
+We follow our vision: "To become a church with a passion for fostering a welcoming community that strives for peace and a sense of belonging." 
 
 # What We Believe (1/2)
 
