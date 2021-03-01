@@ -30,10 +30,9 @@ website](http://www.elca.org/Faith/ELCA-Teaching).
 
 # Welcome Statement (1/2)
 
-Welcome to Grace Lutheran.  This is Christ's Church.  There is a place for you
-here.  We are the church that shares a living, daring confidence in God's grace.
-This faith comes through the good news of Jesus Christ and gives us the freedom
-and the courage to wonder, discover and boldly participate in what God is up to
-in the world.  Liberated by our faith, we embrace you as a whole
+Welcome to Grace Lutheran. This is Christ's Church. There is a place for you
+here. We are a congregation that shares and lives in God's grace. 
+This grace gives us the freedom and the courage to wonder, discover and participate in God's work
+in the world. Liberated by our faith, we embrace you as a whole
 person—questions, complexities and all. Join us as we do God's work in Christ's
 name for the life of the world.
