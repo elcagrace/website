@@ -25,7 +25,7 @@ Office Hours: Monday–Friday, 9:00&nbsp;AM through 3:00&nbsp;PM
 
 *   **Evening Worship (temporarily cancelled):** Saturdays, 5:00–5:45 PM, in the
     [chapel](visit.cgi#chapel)
-*   **Morning Worship:** Sundays, 9:00–10:00&nbsp;AM, in the
+*   **Morning Worship (in-person and online):** Sundays, 9:00–10:00&nbsp;AM, in the
     [nave](visit.cgi#nave)
 *   **Midweek Service of Word and Prayer (temporarily online only):** Wednesdays, 5:30–5:50&nbsp;PM, in the
     [chapel](visit.cgi#chapel) Only September through April.
