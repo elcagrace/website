@@ -23,17 +23,17 @@ Office Hours: Monday–Friday, 9:00&nbsp;AM through 3:00&nbsp;PM
 
 {carousel}
 
-*   **Evening Worship:** Saturdays, 5:00–5:45 PM, in the
+*   **Evening Worship (temporarily cancelled):** Saturdays, 5:00–5:45 PM, in the
     [chapel](visit.cgi#chapel)
 *   **Morning Worship:** Sundays, 9:00–10:00&nbsp;AM, in the
     [nave](visit.cgi#nave)
-*   **Evening Prayer:** Wednesdays, 5:30–5:50&nbsp;PM, in the
+*   **Midweek Service of Word and Prayer (temporarily online only):** Wednesdays, 5:30–5:50&nbsp;PM, in the
     [chapel](visit.cgi#chapel) Only September through April.
-*   **Sunday School:** Sundays during the school year, 10:15–11:00&nbsp;AM, in
+*   **Sunday School (online only):** Sundays during the school year, 10:15–11:00&nbsp;AM, in
     the [basement Sunday school rooms](visit.cgi#sunday-school-rooms)
-*   **Youth Forum:** Sundays during the school year, 10:15–11:00&nbsp;AM, in the
+*   **Youth Forum (online only):** Sundays during the school year, 10:15–11:00&nbsp;AM, in the
     [Youth Room](visit.cgi#youth-room)
-*   **Adult Forum:** Sundays during the school year, 10:30–11:30&nbsp;AM,
+*   **Adult Forum (temporarily cancelled):** Sundays during the school year, 10:30–11:30&nbsp;AM,
     in the [lounge](visit.cgi#lounge)
 *   **Jazz Service:** Third Sunday of every month, 9:00-10:00&nbsp;AM, in the
     [nave](visit.cgi#nave)
