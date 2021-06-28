@@ -23,7 +23,7 @@ Office Hours: Monday–Friday, 9:00&nbsp;AM through 3:00&nbsp;PM
 
 {carousel}
 
-*   **Evening Worship (suspended):** Saturdays, 5:30–6:00 PM, in the
+*   **Evening Worship (in-person):** Saturdays, 5:30–6:15 PM, in the
     [chapel](visit.cgi#chapel)
 *   **Morning Worship (in-person and online):** Sundays, 9:00–10:00&nbsp;AM, in the
     [nave](visit.cgi#nave)
