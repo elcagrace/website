@@ -32,7 +32,7 @@ Office Hours: Monday–Friday, 9:00&nbsp;AM through 3:00&nbsp;PM
     the [basement Sunday school rooms](visit.cgi#sunday-school-rooms)
 *   **Youth Forum (online only):** Sundays during the school year, 10:15–11:00&nbsp;AM, in the
     [Youth Room](visit.cgi#youth-room)
-*   **Adult Forum (suspended):** Sundays during the school year, 10:30–11:30&nbsp;AM,
+*   **Adult Class (in-person):** Sundays during the school year, 10:30–11:10&nbsp;AM,
     in the [lounge](visit.cgi#lounge)
 *   **Jazz Service (in-person and online):** Third Sunday of every month, 9:00-10:00&nbsp;AM, in the
     [nave](visit.cgi#nave)
