@@ -27,7 +27,7 @@ Office Hours: Monday–Friday, 9:00&nbsp;AM through 3:00&nbsp;PM
     [chapel](visit.cgi#chapel)
 *   **Morning Worship (in-person and online):** Sundays, 9:00–10:00&nbsp;AM, in the
     [nave](visit.cgi#nave)
-*   **Midweek Service of Word and Prayer (online only):** Recorded on Wednesdays.
+*   **Midweek Service of Word and Prayer (online only):** Recorded on Wednesdays from September through April.
 *   **Sunday School (online only):** Sundays during the school year, 10:15–11:00&nbsp;AM, in
     the [basement Sunday school rooms](visit.cgi#sunday-school-rooms)
 *   **Youth Forum (online only):** Sundays during the school year, 10:15–11:00&nbsp;AM, in the
