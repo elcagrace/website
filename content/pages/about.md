@@ -19,8 +19,7 @@ website](http://www.elca.org/Faith/ELCA-Teaching).
 
 # Staff (1/2)
 
-* Rev.&nbsp;Eric Lesher, Senior Pastor
-  ([pr.eric@egrace.org](mailto:pr.eric@egrace.org))
+* Open, Senior Pastor
 * Anne Melang-Thoren, Director of Music
   ([anne@egrace.org](mailto:anne@egrace.org))
 * David Sage, Office Administrator
